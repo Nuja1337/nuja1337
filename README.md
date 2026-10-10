@@ -7,7 +7,8 @@ Gameplay and full-stack engineer. I build games and web apps.
 ## Runefall
 
 A classless arena-and-raid RPG where every player builds their own kit from ten abilities. I'm building it solo in
-Godot 4 and C# (.NET 10), on an engine-free, server-authoritative simulation with fog of war computed on the server.
+Godot 4 and C# (.NET 10), on an engine-free, server-authoritative 60 Hz simulation. It's playable online over Steam's
+relay network, with fog of war enforced on the server and a matchmaker that fills empty seats with bots. The raid is next.
 
 It's versioned in [Diversion](https://www.diversion.dev), not GitHub, so its history doesn't show up here.
 [Read the breakdown →](https://portfolio.ajshaham.workers.dev/breakdowns/runefall)
@@ -16,13 +17,13 @@ It's versioned in [Diversion](https://www.diversion.dev), not GitHub, so its his
 
 | App | What it does | |
 | --- | --- | --- |
-| [Logs](https://logs.ajshaham.workers.dev) | Parses 1M+ event combat logs in a browser Web Worker into fight, player, and raid-team reports. | [Breakdown](https://portfolio.ajshaham.workers.dev/breakdowns/logs) |
-| [Sims](https://sims.ajshaham.workers.dev) | A deterministic combat simulator that runs raid encounters on every CPU core, in the browser. | [Breakdown](https://portfolio.ajshaham.workers.dev/breakdowns/sims) |
+| [Guild Golem](https://guildgolem.com)<br>_live beta_ | Guild management for World of Warcraft: Forever: raids, roster, loot, and a Discord bot, with combat logs and sims built in. | [Breakdown](https://portfolio.ajshaham.workers.dev/breakdowns/wow-companion) |
 | [Drafts](https://drafts.ajshaham.workers.dev) | Real-time League of Legends and Dota 2 draft rooms that suggest picks and bans. | [Breakdown](https://portfolio.ajshaham.workers.dev/breakdowns/drafts) |
 | [Tally](https://tally.ajshaham.workers.dev) | A training and nutrition log that works offline and syncs across devices without an account. | [Breakdown](https://portfolio.ajshaham.workers.dev/breakdowns/tally) |
-| WoW Forever companion<br>_in development_ | One app for World of Warcraft: Forever guilds, with Logs and Sims built in. | [Breakdown](https://portfolio.ajshaham.workers.dev/breakdowns/wow-companion) |
 
-All of them run on Cloudflare Workers.
+All of them run on Cloudflare Workers. Logs and Sims, my earlier combat-log analyzer and simulator for WoW Forever, were
+retired in October 2026 and rebuilt inside Guild Golem; their breakdowns are still up
+([Logs](https://portfolio.ajshaham.workers.dev/breakdowns/logs), [Sims](https://portfolio.ajshaham.workers.dev/breakdowns/sims)).
 
 ## Before this
 
