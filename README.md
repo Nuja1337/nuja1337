@@ -6,9 +6,10 @@ Gameplay and full-stack engineer. I build games and web apps.
 
 ## Runefall
 
-A classless arena-and-raid RPG where every player builds their own kit from ten abilities. I'm building it solo in
+A classless arena-and-dungeon RPG where every player builds their own kit from ten abilities. I'm building it solo in
 Godot 4 and C# (.NET 10), on an engine-free, server-authoritative 60 Hz simulation. It's playable online over Steam's
-relay network, with fog of war enforced on the server and a matchmaker that fills empty seats with bots. The raid is next.
+relay network, with fog of war enforced on the server and a matchmaker that fills empty seats with bots. A five-player
+dungeon shaped like Mythic+ is built around a stand-in boss; the first real one is next.
 
 It's versioned in [Diversion](https://www.diversion.dev), not GitHub, so its history doesn't show up here.
 [Read the breakdown →](https://portfolio.ajshaham.workers.dev/breakdowns/runefall)
